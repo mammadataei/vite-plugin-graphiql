@@ -44,8 +44,13 @@
   "dependencies": {
     "@graphiql/toolkit": "^0.8.0",
     "graphiql": "^2.2.0",
+    "pathe": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sirv": "^2.0.2"
+  },
+  "peerDependencies": {
+    "vite": "^2.9.0 || ^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
