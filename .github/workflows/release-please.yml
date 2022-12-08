@@ -32,6 +32,7 @@ jobs:
 
       - name: Setup .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        if: ${{ steps.release.outputs.release_created }}
 
       - name: Install dependencies and build
         run: pnpm i && pnpm build
