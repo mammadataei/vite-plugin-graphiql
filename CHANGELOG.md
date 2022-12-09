@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/mammadataei/vite-plugin-graphiql/compare/v1.0.0...v1.0.1) (2022-12-09)
+
+
+### Bug Fixes
+
+* fix resolving client dist ([#8](https://github.com/mammadataei/vite-plugin-graphiql/issues/8)) ([f3c9739](https://github.com/mammadataei/vite-plugin-graphiql/commit/f3c9739171cafa49606a8dea0b4ee69892ad7902))
+
 ## 1.0.0 (2022-12-08)
 
 
