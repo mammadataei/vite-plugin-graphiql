@@ -32,6 +32,7 @@
     "build:client": "vite build",
     "dev:client": "vite",
     "preview:client": "vite preview",
+    "example": "pnpm --filter example",
     "format": "prettier --write . && pnpm lint --fix",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "prepare": "husky install",
