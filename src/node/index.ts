@@ -1,10 +1,15 @@
 import type { Plugin } from 'vite'
 import { fileURLToPath } from 'url'
-import { resolve } from 'pathe'
+import { resolve, dirname } from 'pathe'
 import sirv from 'sirv'
 import type { GraphiQLPluginOptions } from '../types'
 
 const BASE_PATH = '/__graphiql'
+
+const _dirname =
+  typeof __dirname !== 'undefined'
+    ? __dirname
+    : dirname(fileURLToPath(import.meta.url))
 
 export default function (options: GraphiQLPluginOptions): Plugin {
   return {
@@ -30,7 +35,7 @@ export default function (options: GraphiQLPluginOptions): Plugin {
 }
 
 function serveClient() {
-  const clientDist = resolve(fileURLToPath(import.meta.url), '../client')
+  const clientDist = resolve(_dirname, './client')
   return sirv(clientDist, {
     single: true,
     dev: true,
