@@ -4,7 +4,12 @@
   "description": "Integrate GraphiQL IDE in your Vite projects",
   "author": "Mohammad Ataei",
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "graphiql",
+    "graphql"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mammadataei/vite-plugin-graphiql/"
