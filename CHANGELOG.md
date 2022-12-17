@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/mammadataei/vite-plugin-graphiql/compare/v1.0.1...v1.1.0) (2022-12-17)
+
+
+### Features
+
+* add support for @graphiql/plugin-explorer ([#18](https://github.com/mammadataei/vite-plugin-graphiql/issues/18)) ([eabdf8f](https://github.com/mammadataei/vite-plugin-graphiql/commit/eabdf8f9922b3d701f6693146b8271516b3d0055))
+
+
+### Bug Fixes
+
+* move bundled client deps to devDependencies ([#15](https://github.com/mammadataei/vite-plugin-graphiql/issues/15)) ([6b7f416](https://github.com/mammadataei/vite-plugin-graphiql/commit/6b7f416644ba73b3a469a021e9432f4c82b6b5c6))
+
 ## [1.0.1](https://github.com/mammadataei/vite-plugin-graphiql/compare/v1.0.0...v1.0.1) (2022-12-09)
 
 
