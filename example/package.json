@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "typescript": "^4.6.4",
-    "vite": "^3.2.3",
+    "vite": "^4.0.0",
     "vite-plugin-graphiql": "workspace:*"
   }
 }
