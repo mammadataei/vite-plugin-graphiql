@@ -6,6 +6,7 @@ importers:
     specifiers:
       '@commitlint/cli': ^17.3.0
       '@commitlint/config-conventional': ^17.3.0
+      '@graphiql/plugin-explorer': ^0.1.12
       '@graphiql/toolkit': ^0.8.0
       '@types/react': ^18.0.24
       '@types/react-dom': ^18.0.8
@@ -32,6 +33,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 17.3.0
       '@commitlint/config-conventional': 17.3.0
+      '@graphiql/plugin-explorer': 0.1.12_f47u4fyrpsztifti3kd5wz3pee
       '@graphiql/toolkit': 0.8.0_graphql@16.6.0
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.9
@@ -550,6 +552,26 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@graphiql/plugin-explorer/0.1.12_f47u4fyrpsztifti3kd5wz3pee:
+    resolution: {integrity: sha512-H7YsmXl96QbYo+8tyV7RXhTDzr7q/W34yZXi0ABnxTMx3K0SGFU9fsnfTliM4TpiRm27lysROriWjqvHbOQXYQ==}
+    peerDependencies:
+      graphql: ^15.5.0 || ^16.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@graphiql/react': 0.15.0_f47u4fyrpsztifti3kd5wz3pee
+      graphiql-explorer: 0.9.0_gdcq4dv6opitr3wbfwyjmanyra
+      graphql: 16.6.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - '@codemirror/language'
+      - '@types/node'
+      - '@types/react'
+      - graphql-ws
+      - react-is
     dev: true
 
   /@graphiql/react/0.15.0_f47u4fyrpsztifti3kd5wz3pee:
@@ -2314,6 +2336,18 @@ packages:
 
   /grapheme-splitter/1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
+    dev: true
+
+  /graphiql-explorer/0.9.0_gdcq4dv6opitr3wbfwyjmanyra:
+    resolution: {integrity: sha512-fZC/wsuatqiQDO2otchxriFO0LaWIo/ovF/CQJ1yOudmY0P7pzDiP+l9CEHUiWbizk3e99x6DQG4XG1VxA+d6A==}
+    peerDependencies:
+      graphql: ^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
+      react: ^15.6.0 || ^16.0.0
+      react-dom: ^15.6.0 || ^16.0.0
+    dependencies:
+      graphql: 16.6.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: true
 
   /graphiql/2.2.0_f47u4fyrpsztifti3kd5wz3pee:
