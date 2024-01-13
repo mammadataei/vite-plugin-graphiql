@@ -76,5 +76,6 @@
     "typescript": "^4.9.3",
     "unbuild": "^1.0.1",
     "vite": "^3.2.5"
-  }
+  },
+  "packageManager": "pnpm@8.13.1"
 }
