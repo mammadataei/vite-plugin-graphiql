@@ -46,8 +46,8 @@ importers:
         specifier: ^8.56.0
         version: 8.56.0
       eslint-config-prettier:
-        specifier: ^8.10.0
-        version: 8.10.0(eslint@8.56.0)
+        specifier: ^9.0.0
+        version: 9.1.0(eslint@8.56.0)
       graphiql:
         specifier: ^2.4.7
         version: 2.4.7(@codemirror/language@6.0.0)(@types/node@20.5.1)(@types/react@18.2.47)(graphql@16.8.1)(react-dom@18.2.0)(react-is@17.0.2)(react@18.2.0)
@@ -3401,8 +3401,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier@8.10.0(eslint@8.56.0):
-    resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
+  /eslint-config-prettier@9.1.0(eslint@8.56.0):
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
