@@ -48,34 +48,34 @@
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   },
   "dependencies": {
-    "pathe": "^1.0.0",
-    "sirv": "^2.0.2"
+    "pathe": "^1.1.2",
+    "sirv": "^2.0.4"
   },
   "peerDependencies": {
     "vite": "^2.9.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@graphiql/plugin-explorer": "^0.1.12",
-    "@graphiql/toolkit": "^0.8.0",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "@typescript-eslint/eslint-plugin": "^5.45.1",
-    "@typescript-eslint/parser": "^5.45.1",
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1",
+    "@graphiql/plugin-explorer": "^0.1.22",
+    "@graphiql/toolkit": "^0.8.4",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-react": "^2.2.0",
-    "eslint": "^8.29.0",
-    "eslint-config-prettier": "^8.5.0",
-    "graphiql": "^2.2.0",
-    "graphql": "^16.6.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^8.10.0",
+    "graphiql": "^2.4.7",
+    "graphql": "^16.8.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
     "prettier": "2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^4.9.3",
-    "unbuild": "^1.0.1",
-    "vite": "^3.2.5"
+    "typescript": "^4.9.5",
+    "unbuild": "^1.2.1",
+    "vite": "^3.2.7"
   },
   "packageManager": "pnpm@8.13.1"
 }
