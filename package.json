@@ -57,7 +57,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-conventional": "^17.8.1",
-    "@graphiql/plugin-explorer": "^0.1.22",
+    "@graphiql/plugin-explorer": "^0.3.0",
     "@graphiql/toolkit": "^0.8.4",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
