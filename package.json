@@ -55,8 +55,8 @@
     "vite": "^2.9.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
     "@graphiql/plugin-explorer": "^0.1.22",
     "@graphiql/toolkit": "^0.8.4",
     "@types/react": "^18.2.47",
